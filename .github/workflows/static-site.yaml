@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-  stage-2-validatee-html:
+  stage-2-validate-html:
     name: 2️⃣ Validate HTML Syntax
     runs-on: ubuntu-latest
     needs: stage-1-checkout
